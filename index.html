@@ -8,36 +8,10 @@
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
-
+    <link rel="stylesheet" href="css/main.css" />
     <title>Simple html page</title>
   </head>
   <body>
-    <style>
-      @media (min-width: 576px) {
-        .card-columns {
-          column-count: 2;
-        }
-      }
-
-      @media (min-width: 768px) {
-        .card-columns {
-          column-count: 3;
-        }
-      }
-
-      @media (min-width: 992px) {
-        .card-columns {
-          column-count: 4;
-        }
-      }
-
-      @media (min-width: 1200px) {
-        .card-columns {
-          column-count: 5;
-        }
-      }
-    </style>
-
     <header>
       <div class="jumbotron">
         <h5>Tu sitio para hablar</h5>
@@ -82,82 +56,112 @@
 
       <hr />
 
-      <div class="container">
-        <div class="row">
-          <div class="col-lg 3 col-md-3 col-sm-12 col-xs-12">
-            <div class="card">
-              <img class="card-img-top" src="img/1.jpg" alt="Card image cap" />
-              <div class="card-block">
-                <h4 class="card-title">Server #1</h4>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a
-                  href="http://v4-alpha.getbootstrap.com/components/card/"
-                  class="btn btn-primary"
-                  >Learn More</a
-                >
-              </div>
-            </div>
+      <!-- Cards -->
+      <section class="d-flex flex-wrap">
+        <section class="card-server d-flex flex-column justify-content-between">
+          <header>
+            <h4>Server 1</h4>
+          </header>
+          <div>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              laboriosam, consectetur dolorem, assumenda praesentium inventore
+              et accusamus pariatur deserunt cum quidem placeat in, quod ea.
+            </p>
+            <button class="btn btn-primary">Learn more</button>
           </div>
+        </section>
+        <section class="card-server d-flex flex-column justify-content-between">
+          <header>
+            <h4>Server 1</h4>
+          </header>
+          <div>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              laboriosam, consectetur dolorem, assumenda praesentium inventore
+              et accusamus pariatur deserunt cum quidem placeat in, quod ea.
+            </p>
+            <button class="btn btn-primary">Learn more</button>
+          </div>
+        </section>
+        <section class="card-server d-flex flex-column justify-content-between">
+          <header>
+            <h4>Server 1</h4>
+          </header>
+          <div>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              laboriosam, consectetur dolorem, assumenda praesentium inventore
+              et accusamus pariatur deserunt cum quidem placeat in, quod ea.
+            </p>
+            <button class="btn btn-primary">Learn more</button>
+          </div>
+        </section>
+        <section class="card-server d-flex flex-column justify-content-between">
+          <header>
+            <h4>Server 1</h4>
+          </header>
+          <div>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              laboriosam, consectetur dolorem, assumenda praesentium inventore
+              et accusamus pariatur deserunt cum quidem placeat in, quod ea.
+            </p>
+            <button class="btn btn-primary">Learn more</button>
+          </div>
+        </section>
+        <section class="card-server d-flex flex-column justify-content-between">
+          <header>
+            <h4>Server 1</h4>
+          </header>
+          <div>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              laboriosam, consectetur dolorem, assumenda praesentium inventore
+              et accusamus pariatur deserunt cum quidem placeat in, quod ea.
+            </p>
+            <button class="btn btn-primary">Learn more</button>
+          </div>
+        </section>
+        <section class="card-server d-flex flex-column justify-content-between">
+          <header>
+            <h4>Server 1</h4>
+          </header>
+          <div>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              laboriosam, consectetur dolorem, assumenda praesentium inventore
+              et accusamus pariatur deserunt cum quidem placeat in, quod ea.
+            </p>
+            <button class="btn btn-primary">Learn more</button>
+          </div>
+        </section>
+      </section>
+      <!-- End Cards -->
+    </main>
 
-          <div class="col-lg 3 col-md-3 col-sm-12 col-xs-12">
-            <div class="card card-inverse card-primary text-center">
-              <img class="card-img-top" src="img/1.jpg" alt="Card image cap" />
-              <div class="card-block">
-                <h4 class="card-title">Server #2</h4>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a
-                  href="http://v4-alpha.getbootstrap.com/components/card/"
-                  class="btn btn-primary"
-                  >Learn More</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg 3 col-md-3 col-sm-12 col-xs-12">
-            <div class="card card-inverse card-success text-center">
-              <img class="card-img-top" src="img/1.jpg" alt="Card image cap" />
-              <div class="card-block">
-                <h4 class="card-title">Server #3</h4>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a
-                  href="http://v4-alpha.getbootstrap.com/components/card/"
-                  class="btn btn-primary"
-                  >Learn More</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg 3 col-md-3 col-sm-12 col-xs-12">
-            <div class="card card-inverse card-info text-center">
-              <img class="card-img-top" src="img/1.jpg" alt="Card image cap" />
-              <div class="card-block">
-                <h4 class="card-title">Server #4</h4>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a
-                  href="http://v4-alpha.getbootstrap.com/components/card/"
-                  class="btn btn-primary"
-                  >Learn More</a
-                >
-              </div>
-            </div>
-          </div>
+    <footer>
+      <div class="row">
+        <div id="col-sm-4 d-flex flex-column">
+          <a href="">Facebook</a>
+          <a href="">Instagram</a>
+          <a href="">Twitter</a>
+          <a href="">Google +</a>
+        </div>
+        <div id="col-sm-4">
+          <address>
+            <p>2089  Pin Oak Drive</p>
+            <p>Mccausaland</p>
+            <p>563-225-3700</p>
+          </address>
+        </div>
+        <div id="col-sm-4 d-flex flex-column align-items-end">
+          <a href="">Sobre nosotros</a>
+          <a href="">Ofertas de empleo</a>
+          <a href="">Términos y condiciones</a>
         </div>
       </div>
-    </main>
+    </footer>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
