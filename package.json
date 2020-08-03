@@ -1,0 +1,28 @@
+{
+  "name": "Simple-HTML-page",
+  "version": "1.0.0",
+  "description": "Another simple html page lol",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FeliPrado31/Simple-HTML-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FeliPrado31/Simple-HTML-page/issues"
+  },
+  "homepage": "https://github.com/FeliPrado31/Simple-HTML-page#readme"
+}
