@@ -12,6 +12,31 @@
     <title>Simple html page</title>
   </head>
   <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="#">Discord</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="index.html"
+            >Home <span class="sr-only">(current)</span></a
+          >
+          <a class="nav-item nav-link" href="about.html">About</a>
+          <a class="nav-item nav-link" href="#">Ofertas de empleo</a>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
     <header>
       <div class="jumbotron">
         <h5>Tu sitio para hablar</h5>
@@ -24,6 +49,11 @@
 
     <main>
       <div class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">Home</li>
+          </ol>
+        </nav>
         <div class="row">
           <div class="col">
             <h5>
@@ -150,7 +180,7 @@
         </div>
         <div id="col-sm-4">
           <address>
-            <p>2089  Pin Oak Drive</p>
+            <p>2089 Pin Oak Drive</p>
             <p>Mccausaland</p>
             <p>563-225-3700</p>
           </address>
