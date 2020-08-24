@@ -1,245 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css"
-    />
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="css/main.css" />
-    <title>Simple html page</title>
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <a class="navbar-brand" href="#">Discord</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link" href="/index.html"
-            ><span class="oi oi-home"></span> Home
-            <span class="sr-only">(current)</span></a
-          >
-          <a class="nav-item nav-link" href="about.html">About</a>
-          <a class="nav-item nav-link" href="contacto.html">Contacto</a>
-          <a class="nav-item nav-link" href="precios.html">Precios</a>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <title>Simple html page</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">Discord</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/index.html"><span class="oi oi-home"></span> Home
+          <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="about.html">About</a>
+        <a class="nav-item nav-link" href="contacto.html">Contacto</a>
+        <a class="nav-item nav-link" href="precios.html">Precios</a>
       </div>
-    </nav>
-    <!-- End Navbar -->
+    </div>
+  </nav>
+  <!-- End Navbar -->
 
-    <!-- jumbotron -->
-    <header>
-      <div class="jumbotron">
-        <h5>Tu sitio para hablar</h5>
-        <p>
-          Aquí te permitimos hablar a diario y divertirte más a menudo, ya
-          formes parte de un club escolar.
-        </p>
-      </div>
-    </header>
-    <!-- end jumbotron -->
+  <!-- jumbotron -->
+  <header>
+    <div class="jumbotron">
+      <h5>Tu sitio para hablar</h5>
+      <p>
+        Aquí te permitimos hablar a diario y divertirte más a menudo, ya
+        formes parte de un club escolar.
+      </p>
+    </div>
+  </header>
+  <!-- end jumbotron -->
 
-    <!-- main content -->
-    <main>
-      <div class="container">
-        <!-- breadcrumb -->
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item active" aria-current="page">Home</li>
-          </ol>
-        </nav>
-        <!-- end breadcrumb -->
-
-        <!-- more info -->
-        <div class="row">
-          <div class="col">
-            <h5>
-              Un lugar solo para miembros con gran libertad para hablar
-            </h5>
-            <p>
-              Los servidores de Discord se organizan en canales ordenados por
-              temas donde puedes colaborar.
-            </p>
-          </div>
-          <div class="col">
-            <h5>
-              Donde es fácil pasar el rato
-            </h5>
-            <p>
-              Entra en un canal de voz cuando estés libre.
-            </p>
-          </div>
-          <div class="col">
-            <h5>
-              De unos pocos fans a un montón
-            </h5>
-            <p>
-              Establece una comunidad de cualquier tamaño con las herramientas
-              de moderación y el acceso personalizado de miembros.
-            </p>
-          </div>
-        </div>
-        <!-- more info -->
-      </div>
-      <hr />
-      <!-- Img in middle -->
-      <img src="./img/fondo.jpg" alt="" class="img-fluid" />
-
-      <!-- Cards -->
-      <section class="d-flex flex-wrap">
-        <section
-          class="card card-server d-flex flex-column justify-content-between"
-        >
-          <img class="card-img-top" src="img/1.jpg" alt="Card image cap" />
-          <header>
-            <h4 class="card-title">Server 1</h4>
-          </header>
-          <div>
-            <p class="card-text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              laboriosam, consectetur dolorem, assumenda praesentium inventore
-              et accusamus pariatur deserunt cum quidem placeat in, quod ea.
-            </p>
-            <button class="btn btn-primary">Learn more</button>
-          </div>
-        </section>
-        <section
-          class="card card-server d-flex flex-column justify-content-between"
-        >
-          <img class="card-img-top" src="img/1.jpg" alt="Card image cap" />
-
-          <header>
-            <h4 class="card-title">Server 1</h4>
-          </header>
-          <div>
-            <p class="card-text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              laboriosam, consectetur dolorem, assumenda praesentium inventore
-              et accusamus pariatur deserunt cum quidem placeat in, quod ea.
-            </p>
-            <button class="btn btn-primary">Learn more</button>
-          </div>
-        </section>
-        <section
-          class="card card-server d-flex flex-column justify-content-between"
-        >
-          <img class="card-img-top" src="img/1.jpg" alt="Card image cap" />
-
-          <header>
-            <h4 class="card-title">Server 1</h4>
-          </header>
-          <div>
-            <p class="card-text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              laboriosam, consectetur dolorem, assumenda praesentium inventore
-              et accusamus pariatur deserunt cum quidem placeat in, quod ea.
-            </p>
-            <button class="btn btn-primary">Learn more</button>
-          </div>
-        </section>
-        <section
-          class="card card-server d-flex flex-column justify-content-between"
-        >
-          <img class="card-img-top" src="img/1.jpg" alt="Card image cap" />
-
-          <header>
-            <h4 class="card-title">Server 1</h4>
-          </header>
-          <div>
-            <p class="card-text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              laboriosam, consectetur dolorem, assumenda praesentium inventore
-              et accusamus pariatur deserunt cum quidem placeat in, quod ea.
-            </p>
-            <button class="btn btn-primary">Learn more</button>
-          </div>
-        </section>
-        <section
-          class="card card-server d-flex flex-column justify-content-between"
-        >
-          <img class="card-img-top" src="img/1.jpg" alt="Card image cap" />
-
-          <header>
-            <h4 class="card-title">Server 1</h4>
-          </header>
-          <div>
-            <p class="card-text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              laboriosam, consectetur dolorem, assumenda praesentium inventore
-              et accusamus pariatur deserunt cum quidem placeat in, quod ea.
-            </p>
-            <button class="btn btn-primary">Learn more</button>
-          </div>
-        </section>
-        <section
-          class="card card-server d-flex flex-column justify-content-between"
-        >
-          <img class="card-img-top" src="img/1.jpg" alt="Card image cap" />
-
-          <header>
-            <h4 class="card-title">Server 1</h4>
-          </header>
-          <div>
-            <p class="card-text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              laboriosam, consectetur dolorem, assumenda praesentium inventore
-              et accusamus pariatur deserunt cum quidem placeat in, quod ea.
-            </p>
-            <button class="btn btn-primary">Learn more</button>
-          </div>
-        </section>
-      </section>
-      <!-- End Cards -->
-    </main>
-
-    <!-- end main -->
-
-    <!-- footer -->
-    <footer>
+  <!-- main content -->
+  <main>
+    <div class="container">
+      <!-- breadcrumb -->
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Home</li>
+        </ol>
+      </nav>
+      <!-- end breadcrumb -->
+      <!-- more info -->
       <div class="row">
-        <div id="col-sm-4 d-flex flex-column">
-          <a href="">Facebook</a>
-          <a href="">Instagram</a>
-          <a href="">Twitter</a>
-          <a href="">Google +</a>
+        <div class="col">
+          <h5>
+            Un lugar solo para miembros con gran libertad para hablar
+          </h5>
+          <p>
+            Los servidores de Discord se organizan en canales ordenados por
+            temas donde puedes colaborar.
+          </p>
         </div>
-        <div id="col-sm-4">
-          <address>
-            <p>2089 Pin Oak Drive</p>
-            <p>Mccausaland</p>
-            <p>563-225-3700</p>
-          </address>
+        <div class="col">
+          <h5>
+            Donde es fácil pasar el rato
+          </h5>
+          <p>
+            Entra en un canal de voz cuando estés libre.
+          </p>
         </div>
-        <div id="col-sm-4 d-flex flex-column align-items-end">
-          <a href="">Sobre nosotros</a>
-          <a href="">Ofertas de empleo</a>
-          <a href="">Términos y condiciones</a>
+        <div class="col">
+          <h5>
+            De unos pocos fans a un montón
+          </h5>
+          <p>
+            Establece una comunidad de cualquier tamaño con las herramientas
+            de moderación y el acceso personalizado de miembros.
+          </p>
         </div>
       </div>
-    </footer>
-    <!-- end footer -->
+      <!-- more info -->
+    </div>
+    <hr />
+    <!-- Img in middle -->
+    <img src="./img/fondo.jpg" alt="" class="img-fluid middle__image" />
+    <hr>
+    <!-- Tabs -->
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+          aria-selected="true">Information</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+          aria-selected="false">Prices</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+          aria-selected="false">Contact</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <!-- Cards -->
+      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <!-- Cards -->
+        <section class="d-flex flex-wrap">
+          <section class="card card-server d-flex flex-column justify-content-between">
+            <img class="card-img-top" src="img/1.jpg" alt="Card image cap" />
+            <header>
+              <h4 class="card-title">Server 1</h4>
+            </header>
+            <div>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+                laboriosam, consectetur dolorem, assumenda praesentium inventore
+                et accusamus pariatur deserunt cum quidem placeat in, quod ea.
+              </p>
+              <button class="btn btn-primary">Learn more</button>
+            </div>
+          </section>
+          <section class="card card-server d-flex flex-column justify-content-between">
+            <img class="card-img-top" src="img/1.jpg" alt="Card image cap" />
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  </body>
+            <header>
+              <h4 class="card-title">Server 1</h4>
+            </header>
+            <div>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+                laboriosam, consectetur dolorem, assumenda praesentium inventore
+                et accusamus pariatur deserunt cum quidem placeat in, quod ea.
+              </p>
+              <button class="btn btn-primary">Learn more</button>
+            </div>
+          </section>
+          <section class="card card-server d-flex flex-column justify-content-between">
+            <img class="card-img-top" src="img/1.jpg" alt="Card image cap" />
+
+            <header>
+              <h4 class="card-title">Server 1</h4>
+            </header>
+            <div>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+                laboriosam, consectetur dolorem, assumenda praesentium inventore
+                et accusamus pariatur deserunt cum quidem placeat in, quod ea.
+              </p>
+              <button class="btn btn-primary">Learn more</button>
+            </div>
+          </section>
+          <section class="card card-server d-flex flex-column justify-content-between">
+            <img class="card-img-top" src="img/1.jpg" alt="Card image cap" />
+
+            <header>
+              <h4 class="card-title">Server 1</h4>
+            </header>
+            <div>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+                laboriosam, consectetur dolorem, assumenda praesentium inventore
+                et accusamus pariatur deserunt cum quidem placeat in, quod ea.
+              </p>
+              <button class="btn btn-primary">Learn more</button>
+            </div>
+          </section>
+          <section class="card card-server d-flex flex-column justify-content-between">
+            <img class="card-img-top" src="img/1.jpg" alt="Card image cap" />
+
+            <header>
+              <h4 class="card-title">Server 1</h4>
+            </header>
+            <div>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+                laboriosam, consectetur dolorem, assumenda praesentium inventore
+                et accusamus pariatur deserunt cum quidem placeat in, quod ea.
+              </p>
+              <button class="btn btn-primary">Learn more</button>
+            </div>
+          </section>
+          <section class="card card-server d-flex flex-column justify-content-between">
+            <img class="card-img-top" src="img/1.jpg" alt="Card image cap" />
+
+            <header>
+              <h4 class="card-title">Server 1</h4>
+            </header>
+            <div>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+                laboriosam, consectetur dolorem, assumenda praesentium inventore
+                et accusamus pariatur deserunt cum quidem placeat in, quod ea.
+              </p>
+              <button class="btn btn-primary">Learn more</button>
+            </div>
+          </section>
+        </section>
+        <!-- End Cards -->
+      </div>
+      <!-- End Cards -->
+      <!-- Precios -->
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <thead class="thead-dark">
+              <th><span class="oi oi-check"></span> Calidad</th>
+              <th>Server 1</th>
+              <th>Server 2</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1 Estrella</td>
+                <td>$11</td>
+                <td>$12</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!-- End Precios -->
+      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+    </div>
+    <!-- End Tabs  -->
+    <hr>
+  </main>
+
+  <!-- end main -->
+
+  <!-- footer -->
+  <footer>
+    <div class="row">
+      <div id="col-sm-4 d-flex flex-column">
+        <a href="">Facebook</a>
+        <a href="">Instagram</a>
+        <a href="">Twitter</a>
+        <a href="">Google +</a>
+      </div>
+      <div id="col-sm-4">
+        <address>
+          <p>2089 Pin Oak Drive</p>
+          <p>Mccausaland</p>
+          <p>563-225-3700</p>
+        </address>
+      </div>
+      <div id="col-sm-4 d-flex flex-column align-items-end">
+        <a href="">Sobre nosotros</a>
+        <a href="">Ofertas de empleo</a>
+        <a href="">Términos y condiciones</a>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
 </html>
