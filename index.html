@@ -55,33 +55,101 @@
       </nav>
       <!-- end breadcrumb -->
       <!-- more info -->
+      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#data1" aria-expanded="false"
+        aria-controls="data1">
+        ¿Qué es?
+      </button>
+
+      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#data2" aria-expanded="false"
+        aria-controls="data2">
+        Pasa el rato
+      </button>
+
+      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#data3" aria-expanded="false"
+        aria-controls="data3">
+        Comunidades
+      </button>
+
+      <!-- modal -->
+
+      <button class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal"
+        data-whatever="@getbootstrap">Contact</button>
+
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label">Email:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="form-group">
+                  <label for="message-text" class="col-form-label">Message:</label>
+                  <textarea class="form-control" id="message-text"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Send message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- end modal -->
+
+
+
       <div class="row">
-        <div class="col">
-          <h5>
-            Un lugar solo para miembros con gran libertad para hablar
-          </h5>
-          <p>
-            Los servidores de Discord se organizan en canales ordenados por
-            temas donde puedes colaborar.
-          </p>
+        <!-- collapse 1 -->
+        <div class="collapse" id="data1">
+          <div class="col">
+            <h5>
+              Un lugar solo para miembros con gran libertad para hablar
+            </h5>
+            <p>
+              Los servidores de Discord se organizan en canales ordenados por
+              temas donde puedes colaborar.
+            </p>
+          </div>
         </div>
-        <div class="col">
-          <h5>
-            Donde es fácil pasar el rato
-          </h5>
-          <p>
-            Entra en un canal de voz cuando estés libre.
-          </p>
+        <!-- end collapse 1 -->
+        <!-- collapse 2 -->
+        <div class="collapse" id="data2">
+          <div class="col">
+            <h5>
+              Donde es fácil pasar el rato
+            </h5>
+            <p>
+              Entra en un canal de voz cuando estés libre.
+            </p>
+          </div>
         </div>
-        <div class="col">
-          <h5>
-            De unos pocos fans a un montón
-          </h5>
-          <p>
-            Establece una comunidad de cualquier tamaño con las herramientas
-            de moderación y el acceso personalizado de miembros.
-          </p>
+        <!-- end collapse 2 -->
+        <!-- collapse 3 -->
+        <div class="collapse" id="data3">
+          <div class="col">
+            <h5>
+              De unos pocos fans a un montón
+            </h5>
+            <p>
+              Establece una comunidad de cualquier tamaño con las herramientas
+              de moderación y el acceso personalizado de miembros.
+            </p>
+          </div>
         </div>
+        <!-- end collapse 3 -->
+
       </div>
       <!-- more info -->
     </div>
@@ -101,7 +169,7 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
-          aria-selected="false">Contact</a>
+          aria-selected="false">More info</a>
       </li>
     </ul>
     <div class="tab-content" id="myTabContent">
@@ -222,7 +290,73 @@
         </div>
       </div>
       <!-- End Precios -->
-      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+        <!-- Acordeon -->
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                  aria-controls="collapseOne">
+                  Vip
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+                moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                  aria-expanded="false" aria-controls="collapseTwo">
+                  Premium
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+                moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                  aria-expanded="false" aria-controls="collapseThree">
+                  Free
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+                moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Accordeon -->
+      </div>
     </div>
     <!-- End Tabs  -->
     <hr>
